@@ -23,24 +23,10 @@
         "description": "The main website.",
         "category": "main", 
         
-        "status": "disrupted",
+        "status": "ok",
         
-        "unresolvedIssues": [
-            {
-              "is": "issue",
-              "title": "Intermittent website availability issues",
-              "createdAt": "2022-08-27 10:19:00 +0000 UTC",
-              "lastMod": "2022-08-30 15:02:15 +0200 CEST",
-              "permalink": "https://status.flathub.org/issues/2022-08-26-conn-issues/",
-              "severity": "disrupted",
-              "resolved": false,
-              "informational": false,
-              "resolvedAt": "<no value>",
-              "affected": ["Website", "API", "Beta website", "Discourse"],
-              "filename": "2022-08-26-conn-issues.md"
-            }
-          
-        ]
+        "unresolvedIssues": []
+        
       },
       {
         "name": "API",
@@ -52,16 +38,16 @@
         "unresolvedIssues": [
             {
               "is": "issue",
-              "title": "Intermittent website availability issues",
+              "title": "API serves outdated information",
               "createdAt": "2022-08-27 10:19:00 +0000 UTC",
-              "lastMod": "2022-08-30 15:02:15 +0200 CEST",
-              "permalink": "https://status.flathub.org/issues/2022-08-26-conn-issues/",
+              "lastMod": "2022-08-30 22:11:14 +0200 CEST",
+              "permalink": "https://status.flathub.org/issues/2022-08-26-backend-update/",
               "severity": "disrupted",
               "resolved": false,
               "informational": false,
               "resolvedAt": "<no value>",
-              "affected": ["Website", "API", "Beta website", "Discourse"],
-              "filename": "2022-08-26-conn-issues.md"
+              "affected": ["API"],
+              "filename": "2022-08-26-backend-update.md"
             }
           
         ]
@@ -71,48 +57,20 @@
         "description": "The beta website at https://beta.flathub.org.",
         "category": "main", 
         
-        "status": "disrupted",
+        "status": "ok",
         
-        "unresolvedIssues": [
-            {
-              "is": "issue",
-              "title": "Intermittent website availability issues",
-              "createdAt": "2022-08-27 10:19:00 +0000 UTC",
-              "lastMod": "2022-08-30 15:02:15 +0200 CEST",
-              "permalink": "https://status.flathub.org/issues/2022-08-26-conn-issues/",
-              "severity": "disrupted",
-              "resolved": false,
-              "informational": false,
-              "resolvedAt": "<no value>",
-              "affected": ["Website", "API", "Beta website", "Discourse"],
-              "filename": "2022-08-26-conn-issues.md"
-            }
-          
-        ]
+        "unresolvedIssues": []
+        
       },
       {
         "name": "Discourse",
         "description": "Community forums.",
         "category": "main", 
         
-        "status": "disrupted",
+        "status": "ok",
         
-        "unresolvedIssues": [
-            {
-              "is": "issue",
-              "title": "Intermittent website availability issues",
-              "createdAt": "2022-08-27 10:19:00 +0000 UTC",
-              "lastMod": "2022-08-30 15:02:15 +0200 CEST",
-              "permalink": "https://status.flathub.org/issues/2022-08-26-conn-issues/",
-              "severity": "disrupted",
-              "resolved": false,
-              "informational": false,
-              "resolvedAt": "<no value>",
-              "affected": ["Website", "API", "Beta website", "Discourse"],
-              "filename": "2022-08-26-conn-issues.md"
-            }
-          
-        ]
+        "unresolvedIssues": []
+        
       },
       {
         "name": "CDN",
@@ -155,7 +113,7 @@
   ],
   
   "buildDate": "2022-08-30",
-  "buildTime": "19:08",
+  "buildTime": "22:11",
   "buildTimezone": "CEST",
   "colorBrand": "#4a86cf",
   "colorOk": "#008000",
