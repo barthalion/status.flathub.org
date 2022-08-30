@@ -8,12 +8,12 @@
         "is": "issue",
         "title": "API serves outdated information",
         "createdAt": "2022-08-27 10:19:00 +0000 UTC",
-        "lastMod": "2022-08-30 22:11:14 +0200 CEST",
+        "lastMod": "2022-08-30 23:38:19 +0200 CEST",
         "permalink": "https://status.flathub.org/issues/2022-08-26-backend-update/",
         "severity": "disrupted",
-        "resolved": false,
+        "resolved": true,
         "informational": false,
-        "resolvedAt": "<no value>",
+        "resolvedAt": "2022-08-30 21:35:00",
         "affected": ["API"],
         "filename": "2022-08-26-backend-update.md"
       }

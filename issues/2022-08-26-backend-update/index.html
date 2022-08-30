@@ -6,8 +6,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <meta name="description" content="Connectivity issues caused the backend to serve outdated applications&rsquo; metadata
-We&rsquo;re investigating technical issue that causes the backend to serve outadated metadata. New applications, updates and statistics do not appear on the website despite being available in the repository. (20:11 UTC — Aug 30) ">
+    <meta name="description" content="The issue has been resolved: The expired certificate of a legacy domain has caused the post-publish.sh triggered by flat-manager to exit with non-zero exit code. This, in turn, caused flat-manager not to regenerate appstream.xml used by the backend as the main data source controlling the website. Deprecated domains were removed from the post-publish.sh script. (21:38 UTC — Aug 30) Connectivity issues caused the backend to serve outdated applications&rsquo; metadata
+We&rsquo;re investigating technical issue that causes the backend to serve outadated metadata.">
     <title>API serves outdated information | Flathub Status</title>
     <link rel="canonical" href="https://status.flathub.org/issues/2022-08-26-backend-update/">
     <link rel="alternate" type="application/json" href="https://status.flathub.org/issues/2022-08-26-backend-update/index.json" title="Flathub Status" />
@@ -433,15 +433,44 @@ We&rsquo;re investigating technical issue that causes the backend to serve outad
   </small></p>
 
   
-    <strong class="error">
-      
-      ▲ 
-      
-      This issue is not resolved yet</strong>
+  
+  
+  
+
+
+  
+  
+    
+      <div class="warning tooltip">
+        <strong>
+          Resolved after
+
+          
+
+          83h
+          16m of downtime.
+        </strong>
+
+        <span class="tooltip__text">
+          
+            August 30, 2022 at 21:35 UTC
+          
+        </span>
+      </div>
+    
+  
   
 
   <hr>
-  <p><strong>Connectivity issues caused the backend to serve outdated applications&rsquo; metadata</strong></p>
+  <p><strong>The issue has been resolved:</strong> The expired certificate of a legacy domain has
+caused the <code>post-publish.sh</code> triggered by flat-manager to exit with non-zero
+exit code. This, in turn, caused flat-manager not to regenerate <code>appstream.xml</code>
+used by the backend as the main data source controlling the website. Deprecated
+domains were removed from the <code>post-publish.sh</code> script. 
+  <span class="faded">(21:38 UTC — Aug 30)</span>
+
+</p>
+<p><strong>Connectivity issues caused the backend to serve outdated applications&rsquo; metadata</strong></p>
 <p>We&rsquo;re investigating technical issue that causes the backend to serve outadated
 metadata. New applications, updates and statistics do not appear on the
 website despite being available in the repository. 
@@ -459,7 +488,7 @@ website despite being available in the repository.
       <p>Last updated:
 
         
-        August 30, 2022 at 20:11 UTC
+        August 30, 2022 at 21:38 UTC
       
       </p>
     </div>
