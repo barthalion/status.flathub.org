@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.flathub.org"/>
+    <title>Affected on Flathub Status</title>
+    <link>https://status.flathub.org/affected/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2022-08-27T10:19:00+00:00</lastBuildDate>
+    <updated>2022-08-27T10:19:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.flathub.org/affected/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>API</title>
+        <link>https://status.flathub.org/affected/api/</link>
+        <pubDate>Sat, 27 Aug 2022 10:19:00 +0000</pubDate>
+        <guid>https://status.flathub.org/affected/api/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Beta website</title>
+        <link>https://status.flathub.org/affected/beta-website/</link>
+        <pubDate>Sat, 27 Aug 2022 10:19:00 +0000</pubDate>
+        <guid>https://status.flathub.org/affected/beta-website/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Discourse</title>
+        <link>https://status.flathub.org/affected/discourse/</link>
+        <pubDate>Sat, 27 Aug 2022 10:19:00 +0000</pubDate>
+        <guid>https://status.flathub.org/affected/discourse/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Website</title>
+        <link>https://status.flathub.org/affected/website/</link>
+        <pubDate>Sat, 27 Aug 2022 10:19:00 +0000</pubDate>
+        <guid>https://status.flathub.org/affected/website/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+  </channel>
+</rss>

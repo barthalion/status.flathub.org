@@ -1,0 +1,168 @@
+{
+  "is": "index",
+  "cStateVersion": "5.4",
+  "apiVersion": "2.0",
+  "title": "Flathub Status",
+  "languageCodeHTML": "en",
+  "languageCode": "en",
+  "baseURL": "https://status.flathub.org", 
+  "description": "We continuously monitor the status of our services and if there are any interruptions, a note will be posted here. Please note that this page is updated manually.",
+  "summaryStatus": "disrupted", 
+  "categories": [
+      {
+        "name": "main",
+        "hideTitle": true,
+        "closedByDefault": false
+      }
+    
+  ],
+  "systems": [
+    
+      {
+        "name": "Website",
+        "description": "The main website.",
+        "category": "main", 
+        
+        "status": "disrupted",
+        
+        "unresolvedIssues": [
+            {
+              "is": "issue",
+              "title": "Intermittent website availability issues",
+              "createdAt": "2022-08-27 10:19:00 +0000 UTC",
+              "lastMod": "2022-08-30 15:08:30 +0200 CEST",
+              "permalink": "https://status.flathub.org/issues/2022-08-26-conn-issues/",
+              "severity": "disrupted",
+              "resolved": false,
+              "informational": false,
+              "resolvedAt": "<no value>",
+              "affected": ["Website", "API", "Beta website", "Discourse"],
+              "filename": "2022-08-26-conn-issues.md"
+            }
+          
+        ]
+      },
+      {
+        "name": "API",
+        "description": "The backend service powering websites.",
+        "category": "main", 
+        
+        "status": "disrupted",
+        
+        "unresolvedIssues": [
+            {
+              "is": "issue",
+              "title": "Intermittent website availability issues",
+              "createdAt": "2022-08-27 10:19:00 +0000 UTC",
+              "lastMod": "2022-08-30 15:08:30 +0200 CEST",
+              "permalink": "https://status.flathub.org/issues/2022-08-26-conn-issues/",
+              "severity": "disrupted",
+              "resolved": false,
+              "informational": false,
+              "resolvedAt": "<no value>",
+              "affected": ["Website", "API", "Beta website", "Discourse"],
+              "filename": "2022-08-26-conn-issues.md"
+            }
+          
+        ]
+      },
+      {
+        "name": "Beta website",
+        "description": "The beta website at https://beta.flathub.org.",
+        "category": "main", 
+        
+        "status": "disrupted",
+        
+        "unresolvedIssues": [
+            {
+              "is": "issue",
+              "title": "Intermittent website availability issues",
+              "createdAt": "2022-08-27 10:19:00 +0000 UTC",
+              "lastMod": "2022-08-30 15:08:30 +0200 CEST",
+              "permalink": "https://status.flathub.org/issues/2022-08-26-conn-issues/",
+              "severity": "disrupted",
+              "resolved": false,
+              "informational": false,
+              "resolvedAt": "<no value>",
+              "affected": ["Website", "API", "Beta website", "Discourse"],
+              "filename": "2022-08-26-conn-issues.md"
+            }
+          
+        ]
+      },
+      {
+        "name": "Discourse",
+        "description": "Community forums.",
+        "category": "main", 
+        
+        "status": "disrupted",
+        
+        "unresolvedIssues": [
+            {
+              "is": "issue",
+              "title": "Intermittent website availability issues",
+              "createdAt": "2022-08-27 10:19:00 +0000 UTC",
+              "lastMod": "2022-08-30 15:08:30 +0200 CEST",
+              "permalink": "https://status.flathub.org/issues/2022-08-26-conn-issues/",
+              "severity": "disrupted",
+              "resolved": false,
+              "informational": false,
+              "resolvedAt": "<no value>",
+              "affected": ["Website", "API", "Beta website", "Discourse"],
+              "filename": "2022-08-26-conn-issues.md"
+            }
+          
+        ]
+      },
+      {
+        "name": "CDN",
+        "description": "Content delivery network backed by Fastly and self-hosted servers.",
+        "category": "main", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Build service",
+        "description": "Buildbot instance and builders.",
+        "category": "main", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Main repository server",
+        "description": "The main server managing uploads and acting as the backend to CDN.",
+        "category": "main", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      }
+  ],
+  
+  "tabs": [
+      {
+        "name": "Matrix", 
+        "link": "<no value>"
+      }
+    
+  ],
+  
+  "buildDate": "2022-08-30",
+  "buildTime": "15:10",
+  "buildTimezone": "CEST",
+  "colorBrand": "#4a86cf",
+  "colorOk": "#008000",
+  "colorDisrupted": "#cc4400",
+  "colorDown": "#e60000",
+  "colorNotice": "#24478f",
+  "alwaysKeepBrandColor": "true",
+  "logo": "https://status.flathub.org/logo.png",
+  "googleAnalytics": "UA-00000000-1"
+}

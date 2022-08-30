@@ -1,0 +1,27 @@
+{
+  "is": "system",
+  "title": "Discourse",
+  "permalink": "https://status.flathub.org/affected/discourse/",
+  "status": "disrupted", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Intermittent website availability issues",
+        "createdAt": "2022-08-27 10:19:00 +0000 UTC",
+        "lastMod": "2022-08-30 15:08:30 +0200 CEST",
+        "permalink": "https://status.flathub.org/issues/2022-08-26-conn-issues/",
+        "severity": "disrupted",
+        "resolved": false,
+        "informational": false,
+        "resolvedAt": "<no value>",
+        "affected": ["Website", "API", "Beta website", "Discourse"],
+        "filename": "2022-08-26-conn-issues.md"
+      }
+    
+  ]
+}
+
+
+
+
+
