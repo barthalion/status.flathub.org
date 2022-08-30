@@ -1,0 +1,96 @@
+title: Flathub Status
+
+buildFuture: true
+languageCode: en
+defaultContentLanguage: en
+baseURL: https://status.flathub.org
+enableGitInfo: true
+
+params:
+  categories:
+    - name: main
+      untitled: true
+
+  systems:
+    - name: Website
+      description: The main website.
+      category: main
+    - name: API
+      description: The backend service powering websites.
+      category: main
+    - name: Beta website
+      description: The beta website at https://beta.flathub.org.
+      category: main
+    - name: Discourse
+      description: Community forums.
+      category: main
+    - name: CDN
+      description: Content delivery network backed by Fastly and self-hosted servers.
+      category: main
+    - name: Build service
+      description: Buildbot instance and builders.
+      category: main
+    - name: Main repository server
+      description: The main server managing uploads and acting as the backend to CDN.
+      category: main
+
+  customTabs:
+    - name: Matrix
+      link: https://matrix.to/#/#flatpak:matrix.org
+
+  dateFormat: January 2, 2006 at 15:04 UTC
+  shortDateFormat: 15:04 UTC — Jan 2
+  useRelativeTime: true
+  skipSeconds: true
+  enableLastMod: true
+  useLargeHeaderDesign: false
+  incidentHistoryFormat: "none"
+  disableIncidentHistory: false
+  disableDarkMode: false
+  useLogo: true
+  logo: ./logo.png
+  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here. Please note that this page is updated manually.
+  disableComplexCalculations: false
+  incidentPostsPerPage: 10
+  brand: "#4a86cf"
+  ok: "#008000"
+  disrupted: "#cc4400"
+  down: "#e60000"
+  notice: "#24478f"
+  alwaysKeepBrandColor: true
+  headerTextColor: white
+  googleAnalytics: UA-00000000-1
+
+# These options affect the core of cState.
+# Please do not change them if you do not
+# know what you are doing.
+theme: cstate
+
+preserveTaxonomyNames: true
+
+taxonomies:
+  affected: affected
+
+outputs:
+  page:
+    - html
+    - json
+  section:
+    - html
+    - json
+    - rss
+  home:
+    - html
+    - json
+    - rss
+    - svg
+  term:
+    - html
+    - json
+    - rss
+    - svg
+
+outputFormats:
+  svg:
+    isPlainText: true
+    mediaType: image/svg+xml
