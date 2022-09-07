@@ -6,6 +6,20 @@
   "pages": [
       {
         "is": "issue",
+        "title": "Intermittent CDN availability issues",
+        "createdAt": "2022-09-07 02:15:00 +0000 UTC",
+        "lastMod": "2022-09-07 14:44:11 +0200 CEST",
+        "permalink": "https://status.flathub.org/issues/2022-09-07-cdn-conn-issues/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2022-09-07 7:29:00",
+        "affected": ["CDN"],
+        "filename": "2022-09-07-cdn-conn-issues.md"
+      }
+    ,
+      {
+        "is": "issue",
         "title": "API serves outdated information",
         "createdAt": "2022-08-27 10:19:00 +0000 UTC",
         "lastMod": "2022-08-30 23:38:19 +0200 CEST",

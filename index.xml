@@ -8,13 +8,28 @@
       <generator>github.com/cstate</generator>
       <language>en</language>
       
-      <lastBuildDate>Sat, 27 Aug 2022 10:19:00 +0000</lastBuildDate>
+      <lastBuildDate>Wed, 07 Sep 2022 02:15:00 +0000</lastBuildDate>
       
       
       
         <atom:link href="https://status.flathub.org/index.xml" rel="self" type="application/rss+xml" />
       
       
+      
+        <item>
+          <title>[Resolved] Intermittent CDN availability issues</title>
+          <link>https://status.flathub.org/issues/2022-09-07-cdn-conn-issues/</link>
+          <pubDate>Wed, 07 Sep 2022 02:15:00 +0000</pubDate>
+          <guid>https://status.flathub.org/issues/2022-09-07-cdn-conn-issues/</guid>
+          <category>2022-09-07 7:29:00</category>
+          <description>&lt;p&gt;Earlier today, increased edge traffic caused caching proxy nodes to run out
+of disk space, causing intermittent CDN availability issues. Disk space has
+been freed manually and the service restored. 
+  &lt;span class=&#34;faded&#34;&gt;(14:43 UTC — Sep 7)&lt;/span&gt;
+
+&lt;/p&gt;
+</description>
+        </item>
       
         <item>
           <title>[Resolved] API serves outdated information</title>
